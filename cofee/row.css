@@ -1,0 +1,125 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ffffff;
+  align-items: center6;
+}
+.input {
+  border: none;
+  background-color: black;
+}
+.texter {
+  color: #ef400f;
+}
+.div_img {
+  display: flex;
+  gap: 20px;
+  padding-left: 200px;
+  align-items: center;
+}
+.texte {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 13px;
+}
+body {
+  background-color: #bcaaaa;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: #0d0d5b;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+.boreder__black .input {
+  width: 300px;
+  color: white;
+  height: 50px;
+  background-color: black;
+  border-radius: 20px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.coin {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.block {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.block1 {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.parent2 {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1220px;
+}
+.btn {
+  color: red;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border-color: red;
+  border-radius: 20px;
+}
+.header__parent {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  gap: 20px;
+  padding-left: 90px;
+}
